@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="SmartFind România — recomandări de gadgeturi, accesorii și produse practice.">
+<meta name="theme-color" content="#090711">
+<title>SmartFind România — Produse utile. Recomandări inteligente.</title>
+<style>
+:root{--bg:#090711;--panel:#14111f;--panel2:#1b1728;--purple:#8b35ff;--purple2:#b16cff;--text:#f8f6ff;--muted:#b9b1c9;--line:#332744}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 85% 0%,#24103f 0,transparent 32rem),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}
+header{position:sticky;top:0;z-index:10;background:#090711eF;backdrop-filter:blur(14px);border-bottom:1px solid #ffffff12}
+nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:11px;font-weight:900;font-size:1.2rem;letter-spacing:-.5px}.brand-mark{width:38px;height:38px;border-radius:12px;background:linear-gradient(135deg,var(--purple),#4a16a0);display:grid;place-items:center;box-shadow:0 0 25px #8b35ff55;font-size:20px}.brand span em{font-style:normal;color:var(--purple2)}.navlinks{display:flex;gap:25px;color:var(--muted);font-size:.92rem}.navlinks a:hover{color:white}.navbtn,.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:12px;padding:12px 18px;font-weight:750;background:linear-gradient(110deg,#7423ec,#a34dff);box-shadow:0 8px 30px #822bdf38;color:white;border:0;cursor:pointer}
+.hero{padding:88px 0 70px;display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center}.eyebrow{display:inline-flex;align-items:center;gap:8px;border:1px solid #713bb0;background:#25143a;color:#d9bcff;border-radius:999px;padding:8px 13px;font-size:.82rem;font-weight:700}.dot{width:7px;height:7px;border-radius:50%;background:#b778ff;box-shadow:0 0 12px #b778ff}
+h1{font-size:clamp(2.7rem,6vw,5rem);line-height:1.02;letter-spacing:-3px;margin:22px 0 20px}h1 span{background:linear-gradient(90deg,#fff,#b77cff);background-clip:text;color:transparent}.lead{color:var(--muted);font-size:1.12rem;line-height:1.75;max-width:600px}.actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:28px}.btn.secondary{background:#ffffff0b;border:1px solid #ffffff26;box-shadow:none}.hero-art{min-height:370px;border:1px solid #7044a0;border-radius:28px;background:linear-gradient(145deg,#211333,#100d1b 70%);position:relative;overflow:hidden;display:grid;place-items:center;padding:25px;box-shadow:0 25px 90px #0008}.glow{position:absolute;width:280px;height:280px;border-radius:50%;background:#8b35ff55;filter:blur(65px)}.device{position:relative;width:190px;height:290px;border:7px solid #50445f;border-radius:32px;background:linear-gradient(145deg,#262033,#090711);transform:rotate(-9deg);box-shadow:25px 35px 45px #0009;display:flex;align-items:center;justify-content:center}.device:before{content:"";position:absolute;top:10px;width:65px;height:12px;border-radius:20px;background:#08060d}.device-icon{font-size:75px;filter:drop-shadow(0 0 18px #a15bff)}.floating{position:absolute;border:1px solid #ffffff24;background:#171222ed;padding:13px 16px;border-radius:15px;font-weight:750;box-shadow:0 12px 30px #0007}.float1{top:45px;left:20px}.float2{right:18px;bottom:48px}.section{padding:65px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:27px}.kicker{color:var(--purple2);font-size:.8rem;font-weight:850;text-transform:uppercase;letter-spacing:1.7px}.section h2{font-size:clamp(1.8rem,4vw,2.7rem);letter-spacing:-1.2px;margin:9px 0}.sub{color:var(--muted);line-height:1.65;max-width:620px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.card{background:linear-gradient(145deg,#1a1625,#100e18);border:1px solid var(--line);border-radius:20px;padding:22px;transition:.2s}.card:hover{transform:translateY(-4px);border-color:#8650c5}.product-icon{height:125px;border-radius:15px;background:radial-gradient(circle at 50% 40%,#7131aa55,transparent 65%),#0d0b14;display:grid;place-items:center;font-size:54px;margin-bottom:18px}.card h3{margin:0 0 8px;font-size:1.08rem}.card p{margin:0;color:var(--muted);line-height:1.6;font-size:.93rem}.tag{display:inline-block;margin-top:15px;border:1px solid #7044a0;color:#d9bcff;padding:6px 9px;border-radius:99px;font-size:.75rem;font-weight:750}
+.note{margin-top:20px;color:#aaa1b8;font-size:.82rem;line-height:1.6}.why{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.why .card{padding:20px}.why strong{display:block;margin:10px 0 6px}.why .emoji{font-size:25px}.banner{padding:35px;border-radius:24px;border:1px solid #7440a5;background:linear-gradient(110deg,#371568,#1a1028 70%);display:flex;align-items:center;justify-content:space-between;gap:25px}.banner h2{margin:0 0 8px}.banner p{margin:0;color:#d0c4df;line-height:1.6}
+footer{border-top:1px solid #ffffff18;padding:30px 0 40px;color:var(--muted);font-size:.86rem}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.disclosure{max-width:760px;line-height:1.65;margin-top:15px}.placeholder{font-size:.76rem;color:#a99bb9}
+@media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:60px;gap:30px}.hero-art{min-height:310px}.grid{grid-template-columns:repeat(2,1fr)}.why{grid-template-columns:1fr}.navlinks{display:none}.section-head{display:block}.banner{display:block}.banner .btn{margin-top:20px}}
+@media(max-width:520px){.wrap{width:min(100% - 28px,1120px)}nav{height:66px}.brand{font-size:1.03rem}.navbtn{padding:10px 12px;font-size:.83rem}.hero{padding:48px 0}.grid{grid-template-columns:1fr}.hero-art{min-height:280px}h1{letter-spacing:-2px}.section{padding:48px 0}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+<a class="brand" href="#top"><span class="brand-mark">✦</span><span>SmartFind <em>România</em></span></a>
+<div class="navlinks"><a href="#categorii">Categorii</a><a href="#despre">Despre noi</a><a href="#contact">Contact</a></div>
+<a class="navbtn" href="#categorii">Descoperă</a>
+</nav></div></header>
+<main id="top">
+<section class="wrap hero">
+<div>
+<div class="eyebrow"><span class="dot"></span> RECOMANDĂRI SMART, FĂRĂ COMPLICAȚII</div>
+<h1>Găsește ce-ți trebuie.<br><span>Mai inteligent.</span></h1>
+<p class="lead">Descoperă gadgeturi, accesorii și produse practice alese pentru utilitatea lor. Fără liste interminabile — doar idei care merită luate în calcul.</p>
+<div class="actions"><a class="btn" href="#categorii">Explorează categoriile&nbsp; →</a><a class="btn secondary" href="#despre">Cum alegem produsele</a></div>
+</div>
+<div class="hero-art" aria-label="Ilustrație decorativă cu un telefon">
+<div class="glow"></div><div class="device"><div class="device-icon">✦</div></div>
+<div class="floating float1">⚡ Alegeri practice</div><div class="floating float2">⌁ SmartFind picks</div>
+</div>
+</section>
+<section class="wrap section" id="categorii">
+<div class="section-head"><div><div class="kicker">Explorează</div><h2>Categorii populare</h2><p class="sub">Începem cu domenii în care găsești ușor produse utile pentru viața de zi cu zi.</p></div></div>
+<div class="grid">
+<article class="card"><div class="product-icon">🎧</div><h3>Accesorii pentru telefon</h3><p>Căști, huse, suporturi și accesorii care îți fac telefonul mai ușor de folosit.</p><span class="tag">TEHNOLOGIE</span></article>
+<article class="card"><div class="product-icon">🔌</div><h3>Încărcătoare și cabluri</h3><p>Accesorii de alimentare și conectivitate. Verifică întotdeauna compatibilitatea și specificațiile.</p><span class="tag">ESENȚIALE</span></article>
+<article class="card"><div class="product-icon">📱</div><h3>Suporturi & organizare</h3><p>Suporturi de birou, organizatoare și mici soluții pentru un spațiu mai ordonat.</p><span class="tag">PRACTIC</span></article>
+<article class="card"><div class="product-icon">🎮</div><h3>Gaming</h3><p>Accesorii pentru setup, confort și organizarea spațiului de gaming.</p><span class="tag">GAMING</span></article>
+<article class="card"><div class="product-icon">🏃</div><h3>Sport & lifestyle</h3><p>Obiecte practice pentru antrenamente, deplasări și rutina de zi cu zi.</p><span class="tag">ACTIVE</span></article>
+<article class="card"><div class="product-icon">🧩</div><h3>Gadgeturi utile</h3><p>Idei simple care pot rezolva mici probleme de zi cu zi — selectate cu atenție.</p><span class="tag">DESCOPERĂ</span></article>
+</div>
+<p class="note">Catalogul este în curs de pregătire. Produsele, prețurile și linkurile de cumpărare vor fi adăugate numai după verificarea ofertelor și a partenerilor.</p>
+</section>
+<section class="wrap section" id="despre">
+<div class="section-head"><div><div class="kicker">De ce SmartFind</div><h2>Mai puțin scroll. Alegeri mai bune.</h2><p class="sub">Scopul nostru este să facem descoperirea produselor mai simplă și mai transparentă.</p></div></div>
+<div class="why">
+<div class="card"><div class="emoji">🔎</div><strong>Selecție atentă</strong><p>Ne uităm la utilitate, compatibilitate și informațiile disponibile înainte să recomandăm ceva.</p></div>
+<div class="card"><div class="emoji">🧠</div><strong>Explicații clare</strong><p>Spunem pe scurt la ce folosește un produs și ce merită verificat înainte de cumpărare.</p></div>
+<div class="card"><div class="emoji">🤝</div><strong>Transparență</strong><p>Dacă folosim linkuri afiliate, vom menționa clar acest lucru. Recomandările nu înlocuiesc propria verificare.</p></div>
+</div>
+</section>
+<section class="wrap section" id="contact">
+<div class="banner"><div><div class="kicker">SmartFind România</div><h2>Descoperă ceva util azi.</h2><p>Urmărește proiectul pentru recomandări noi și selecții de produse practice.</p></div><a class="btn" href="mailto:contact@smartfindromania.example?subject=SmartFind%20Rom%C3%A2nia">Contactează-ne&nbsp; →</a></div>
+</section>
+</main>
+<footer><div class="wrap"><div class="foot"><div><strong>SmartFind România</strong><div class="placeholder">Produse utile. Recomandări inteligente.</div></div><div>© 2026 SmartFind România · Proiect în dezvoltare</div></div>
+<p class="disclosure"><strong>Notă de transparență:</strong> În prezent, acest site este o prezentare demonstrativă. Nu procesează comenzi și nu colectează plăți. În cazul adăugării unor linkuri afiliate, unele linkuri pot genera un comision pentru SmartFind, fără cost suplimentar pentru cumpărător. Verifică întotdeauna prețul, vânzătorul, garanția și condițiile înainte de a cumpăra.</p>
+</div></footer>
+</body></html>
